@@ -1,6 +1,6 @@
-<Title> Basic Temperature Converter 
+#<Title>  Basic Temperature Converter 
 Author: Derek Howe
 
-Introduction
+##Introduction
 
 Basic Temperature Converter class with PHPUnit tests.
