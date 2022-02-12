@@ -9,12 +9,12 @@ class TempConverter
 {
     
     //method to calculate from celsius to fahrenheit with a default room temp
-    function clac_fahrenheit($value = 20) 
+    function clacFahrenheit($value = 20) 
     {
         return ((9/5) * $value) + (32);
     }
     //method to calculate from fahrenheit to celsius with a default room temp
-    function clac_celsius($value = 68) 
+    function clacCelsius($value = 68) 
     {
         return ($value - 32) * (5/9);
     }
@@ -30,9 +30,9 @@ $tempConverter = new TempConverter;
 
 if(isset($tempUnit) && is_numeric($tempUnit)){
     if($convertTo === 'fahrenheit'){
-        echo $tempConverter->clac_fahrenheit($tempUnit);
+        echo $tempConverter->clacFahrenheit($tempUnit);
     }else if($convertTo === 'celsius'){
-        echo $tempConverter->clac_celsius();
+        echo $tempConverter->clacCelsius();
     }else{
         echo 'No temperature scale set.';
     }
