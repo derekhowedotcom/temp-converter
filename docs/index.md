@@ -1,4 +1,4 @@
-#<Title>  Basic Temperature Converter 
+#Basic Temperature Converter 
 Author: Derek Howe
 
 ##Introduction
